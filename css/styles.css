@@ -1,0 +1,58 @@
+/*цвет заголовков - #212121*/
+/*основной цвет -  #757575*/
+/*белый #FFFFFF*/
+/* акцент голубой 
+#2196F3*/
+/* цвет фона #F5F5F5 */
+/*вторичный цвет фона ##F5F4FA */
+/* цвет фона хедера 
+#FFFFFF */
+:root{
+    --primary-text-color: #757575;
+    --header_color: #212121;
+    --accent-color: #2196F3;
+    --button-bg-color:#2196F3;
+
+}
+
+.page-body{
+    background-color:  #F5F5F5;
+    color: var(--primary-text-color);
+}
+.logo{
+    color: #000000;
+}
+.list{
+    list-style: none;
+}
+/* site-nav */
+.site-nav .link{
+    color: var(--header_color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color:var(--accent-color);
+}
+
+/* hero */
+.hero-title{
+    color:var(--header_color);
+}
+/* section */
+.section-title{
+    color:var(--header_color);
+}
+/* activities */
+.activities-list .title{
+    color: var(--primary-text-color);
+}
+
+.employers .title{
+    color:var(--header_color);
+}
+/* Button */
+.button{
+    color: var(--primary-text-color);
+    background-color: var(--button-bg-color);
+}
